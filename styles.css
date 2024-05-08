@@ -3,43 +3,43 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-  
-  /* Basic Styling */
-  body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Basic Styling */
+body {
+    font-family: 'Times New Roman', Times, serif; /* Elegant font */
     line-height: 1.6;
-    color: #333; /* Text color */
-  }
-  
-  /* Navigation */
-  nav {
-    background-color: #fff; /* Light background for navigation */
+    color: #ddd; /* Text color */
+}
+
+/* Navigation */
+nav {
+    /* Remove background color for navigation */
     padding: 10px 0;
-  }
-  
-  nav ul {
+}
+
+nav ul {
     list-style: none;
     text-align: center;
-  }
-  
-  nav ul li {
+}
+
+nav ul li {
     display: inline-block;
     margin: 0 20px;
-  }
-  
-  nav ul li a {
-    color: #333; /* Text color for links */
+}
+
+nav ul li a {
+    color: #ddd; /* Text color for links */
     text-decoration: none;
     transition: color 0.3s ease;
-  }
-  
-  nav ul li a:hover {
-    color: #222; /* Darker color on hover */
-  }
-  
-  /* Hero Section */
-  header#hero {
+}
+
+nav ul li a:hover {
+    color: #bbb; /* Darker color on hover */
+}
+
+/* Hero Section */
+header#hero {
     height: 100vh; /* Full viewport height */
     background-image: url('/home/josemaria/Pictures/89787.jpg'); /* Replace with your image path */
     background-size: cover;
@@ -48,49 +48,50 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: #fff; /* Text color for hero section */
-  }
-  
-  .hero-content {
+    color: #ddd; /* Text color for hero section */
+}
+
+.hero-content {
     text-align: center;
-  }
-  
-  .hero-content h1 {
+}
+
+.hero-content h1 {
     font-size: 3em;
     margin-bottom: 20px;
-  }
-  
-  .hero-content p {
+}
+
+.hero-content p {
     font-size: 1.5em;
     margin-bottom: 30px;
-  }
-  
-  .cta-btn {
-    background-color: #306EFF; /* Blue accent color */
+}
+
+.cta-btn {
+    background-color: #664422; /* Dark brown accent color */
     color: #fff;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s ease;
-  }
-  
-  .cta-btn:hover {
-    background-color: #2957D0; /* Darker blue on hover */
-  }
-  
-  /* Container for Sections */
-  .container {
+}
+
+.cta-btn:hover {
+    background-color: #442211; /* Darker brown on hover */
+}
+
+/* Container for Sections */
+.container {
     max-width: 1000px; /* Adjust as needed */
     margin: 0 auto;
     padding: 80px 0;
-  }
-  
-  /* Section Headings */
-  section h2 {
+}
+
+/* Section Headings */
+section h2 {
     margin-bottom: 30px;
     font-size: 2em;
-  }
-  
-  /* Adjust styles for other sections (About Me, Skills, Portfolio, Contact) as needed */
+}
+
+/* Adjust styles for other sections (About Me, Skills, Portfolio, Contact) as needed */
+
   
 
