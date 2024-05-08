@@ -9,6 +9,9 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Change font family */
     line-height: 1.6;
+}
+
+.background-container {
     background-image: url('/home/josemaria/Pictures/89787.jpg'); /* Specify the path to your image */
     background-size: cover; /* Ensure the image covers the entire background */
     background-repeat: no-repeat; /* Prevent the image from repeating */
@@ -42,9 +45,8 @@ nav ul li a {
 }
 
 /* Hero Section Styles */
-/* Hero Section Styles */
 header {
-    background-color: #805d5d; /* Solid background color */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
     height: 100vh;
     display: flex;
     align-items: center;
@@ -64,7 +66,7 @@ header {
 }
 
 .cta-btn {
-    background-color: #7d725437; /* Change button color to a more elegant shade of green */
+    background-color: #7d725437; /* Change button color to a more elegant shade */
     color: hsl(0, 35%, 38%);
     padding: 10px 20px;
     text-decoration: none;
@@ -73,7 +75,7 @@ header {
 }
 
 .cta-btn:hover {
-    background-color: #5955426d; /* Darker shade of green on hover */
+    background-color: #5955426d; /* Darker shade on hover */
 }
 
 /* Other Section Styles */
@@ -86,5 +88,6 @@ h2 {
 }
 
 /* Add more styles as needed */
+
 
 
