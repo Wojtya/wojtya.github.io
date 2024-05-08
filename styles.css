@@ -40,13 +40,14 @@ nav ul li a {
 
 /* Hero Section Styles */
 header {
-    background: url('/home/josemaria/Pictures/89787.jpg') center/cover no-repeat;
+    background-color: #ff5a5f; /* Replace with your desired background color */
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
 }
+
 
 .hero-content {
     color: #fff;
@@ -63,13 +64,16 @@ header {
 }
 
 .cta-btn {
+    background-image: url('/home/josemaria/Pictures/89787.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
     display: inline-block;
     padding: 10px 20px;
-    background-color: #ff5a5f;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
 }
+
 
 .cta-btn:hover {
     background-color: #ff3338;
