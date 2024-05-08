@@ -9,7 +9,10 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Change font family */
     line-height: 1.6;
-    background-color: #e5d5c9; /* Change background color to a lighter shade */
+    background-image: url('/home/josemaria/Pictures/89787.jpg'); /* Specify the path to your image */
+    background-size: cover; /* Ensure the image covers the entire background */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-position: center; /* Center the image */
 }
 
 .container {
@@ -39,16 +42,15 @@ nav ul li a {
 }
 
 /* Hero Section Styles */
+/* Hero Section Styles */
 header {
-    background-image: url('/home/josemaria/Pictures/89787.jpg'); /* Background image */
-    background-size: cover;
-    background-position: center;
+    background-color: #805d5d; /* Solid background color */
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: #805d5d; /* Text color */
+    color: #fff; /* Text color */
 }
 
 .hero-content h1 {
@@ -84,4 +86,5 @@ h2 {
 }
 
 /* Add more styles as needed */
+
 
