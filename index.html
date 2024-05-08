@@ -1,70 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Interactive Portfolio - Your Name</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-image: url('/home/josemaria/Pictures/89787.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .portfolio-item {
+            margin-bottom: 20px;
+        }
+
+        .portfolio-item img {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        .portfolio-item h2 {
+            margin-top: 10px;
+            text-align: center;
+        }
+    </style>
 </head>
-
 <body>
-    <!-- Navigation -->
-    <nav>
-        <ul>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-
-    <!-- Hero Section -->
-    <header id="hero">
-        <div class="hero-content">
-            <h1>Josemaria</h1>
-            <p>Portfolio</p>
-            <a href="#about" class="cta-btn">Learn More</a>
+    <div class="container">
+        <h1>My Portfolio</h1>
+        <div class="portfolio-item">
+            <img src="project1.jpg" alt="Project 1">
+            <h2>Project 1</h2>
         </div>
-    </header>
-
-    <!-- About Me Section -->
-    <section id="about">
-        <div class="container">
-            <h2>About Me</h2>
-            <p>I like monkeys and dogs!</p>
-
-            <!-- Your About Me Content Goes Here -->
+        <div class="portfolio-item">
+            <img src="project2.jpg" alt="Project 2">
+            <h2>Project 2</h2>
         </div>
-    </section>
-
-    <!-- Skills Section -->
-    <section id="skills">
-        <div class="container">
-            <h2>Skills</h2>
-            <p>I can make good dog food</p>
-            
-            <!-- Your Skills Content Goes Here -->
-        </div>
-    </section>
-
-    <!-- Portfolio Section -->
-    <section id="portfolio">
-        <div class="container">
-            <h2>Portfolio</h2>
-            <!-- Your Portfolio Content Goes Here -->
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact">
-        <div class="container">
-            <h2>Contact</h2>
-            <!-- Your Contact Form Goes Here -->
-        </div>
-    </section>
-
-    <script src="script.js"></script>
+        <!-- Add more portfolio items as needed -->
+    </div>
 </body>
-
 </html>
+
