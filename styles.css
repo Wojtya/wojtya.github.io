@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
 }
 
 /* Basic Styling */
@@ -49,7 +48,7 @@ header {
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: #fff; /* Text color */
+    color: #805d5d; /* Text color */
 }
 
 .hero-content h1 {
@@ -63,8 +62,8 @@ header {
 }
 
 .cta-btn {
-    background-color: #4CAF50; /* Change button color to a more elegant shade of green */
-    color: #fff;
+    background-color: #7d725437; /* Change button color to a more elegant shade of green */
+    color: hsl(0, 35%, 38%);
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
@@ -72,7 +71,7 @@ header {
 }
 
 .cta-btn:hover {
-    background-color: #45a049; /* Darker shade of green on hover */
+    background-color: #5955426d; /* Darker shade of green on hover */
 }
 
 /* Other Section Styles */
@@ -85,3 +84,4 @@ h2 {
 }
 
 /* Add more styles as needed */
+ Add more styles as needed */
