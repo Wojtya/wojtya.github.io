@@ -1,17 +1,20 @@
 body {
-    font-family: sans-serif;
+    font-family: 'Arial', sans-serif; /* Change to an elegant font */
     margin: 0;
     padding: 0;
+    background-color: #222; /* Dark background color */
+    color: #fff; /* White text color */
 }
 
 header {
-    background-color: #f1f1f1;
+    background-color: #333; /* Darker header background color */
     padding: 20px;
+    text-align: center; /* Center align header content */
 }
 
 nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: center; /* Center align navigation */
 }
 
 nav ul {
@@ -27,15 +30,16 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: black;
+    color: #fff; /* White navigation text color */
 }
 
 nav a:hover {
-    color: #333;
+    color: #ccc; /* Lighter hover color */
 }
 
 main {
     padding: 20px;
+    text-align: center; /* Center align main content */
 }
 
 section {
@@ -44,27 +48,27 @@ section {
 
 h2 {
     margin-bottom: 10px;
+    color: #eee; /* Lighter heading text color */
 }
 
 .projects, .skills {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center; /* Center align projects and skills */
 }
 
 .project, .skill {
     width: 45%;
     margin-bottom: 10px;
     padding: 10px;
-    border: 1px solid #ddd;
+    border: 1px solid #444; /* Darker border color */
     border-radius: 5px;
+    background-color: #333; /* Darker background color */
 }
 
 footer {
-    background-color: #f1f1f1;
+    background-color: #333; /* Darker footer background color */
     padding: 10px;
     text-align: center;
 }
-
-  
 
