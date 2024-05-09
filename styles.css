@@ -6,14 +6,14 @@ body {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    color: #fff;
+    color: #f1d8d8;
 }
 
 /* Rest of your CSS styles remain the same */
 
 
 header {
-    background-color: #333; /* Darker header background color */
+    background-color: #a29191; /* Darker header background color */
     padding: 20px;
     text-align: center; /* Center align header content */
 }
@@ -36,7 +36,7 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: #fff; /* White navigation text color */
+    color: #f2d7d7; /* White navigation text color */
 }
 
 nav a:hover {
@@ -54,7 +54,7 @@ section {
 
 h2 {
     margin-bottom: 10px;
-    color: #eee; /* Lighter heading text color */
+    color: hsl(0, 45%, 91%); /* Lighter heading text color */
 }
 
 .projects, .skills {
@@ -73,7 +73,7 @@ h2 {
 }
 
 footer {
-    background-color: #333; /* Darker footer background color */
+    background-color: #a29191; /* Darker footer background color */
     padding: 10px;
     text-align: center;
 }
