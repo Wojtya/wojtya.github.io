@@ -6,7 +6,9 @@ body {
     background-size: cover;
     background-position: center;
     color: #f1d8d8;
-    position: relative; /* Set position to relative for footer placement */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure body fills the viewport height */
 }
 
 header {
@@ -41,6 +43,7 @@ nav a:hover {
 }
 
 main {
+    flex: 1; /* Allow main content to grow and take up remaining space */
     padding: 20px;
     text-align: center; /* Center align main content */
 }
@@ -73,21 +76,5 @@ footer {
     background-color: #a29191; /* Darker footer background color */
     padding: 10px;
     text-align: center;
-    position: absolute; /* Position footer at the bottom */
-    bottom: 0; /* Align footer to the bottom */
     width: 100%; /* Full width */
 }
-
-@media (max-width: 768px) {
-    /* Styles for screens smaller than 768px (e.g., phones) */
-    main {
-        padding: 10px; /* Adjust padding for smaller screens */
-    }
-    .project, .skill {
-        width: 90%; /* Make projects and skills take up more space on smaller screens */
-    }
-    #contact { /* Adjust contact section for smaller screens */
-        margin-bottom: 60px; /* Add margin at the bottom to make space for the footer */
-    }
-}
-
