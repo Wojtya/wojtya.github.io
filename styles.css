@@ -2,7 +2,7 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('https://i.pinimg.com/originals/28/f6/2e/28f62e1d6a2bde1e6ac0ae86b7d008df.jpg'); /* Random background image from Unsplash */
+    background-image: url('https://i.pinimg.com/originals/33/4a/4e/334a4e8d341f0f71bfaa0bbe1fbd7253.jpg'); /* Random background image from Unsplash */
     background-size: cover;
     background-position: center;
     color: #f1d8d8;
@@ -16,6 +16,9 @@ header {
     background-color: #a29191; /* Darker header background color */
     padding: 20px;
     text-align: center; /* Center align header content */
+    display: flex;
+    justify-content: center; /* Center align header content horizontally */
+    align-items: center; /* Center align header content vertically */
 }
 
 nav {
@@ -79,3 +82,4 @@ footer {
     text-align: center;
     width: 100%; /* Full width */
 }
+
