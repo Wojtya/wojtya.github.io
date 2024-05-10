@@ -9,9 +9,6 @@ body {
     color: #f1d8d8;
 }
 
-/* Rest of your CSS styles remain the same */
-
-
 header {
     background-color: #a29191; /* Darker header background color */
     padding: 20px;
@@ -78,3 +75,12 @@ footer {
     text-align: center;
 }
 
+@media (max-width: 768px) {
+    /* Styles for screens smaller than 768px (e.g., phones) */
+    main {
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+    .project, .skill {
+        width: 90%; /* Make projects and skills take up more space on smaller screens */
+    }
+}
