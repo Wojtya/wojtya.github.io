@@ -6,7 +6,6 @@ body {
     background-size: cover;
     background-position: center;
     color: #f1d8d8;
-    overflow-x: hidden; /* Prevent horizontal scrolling */
     position: relative; /* Set position to relative for footer placement */
 }
 
@@ -87,4 +86,8 @@ footer {
     .project, .skill {
         width: 90%; /* Make projects and skills take up more space on smaller screens */
     }
+    #contact { /* Adjust contact section for smaller screens */
+        margin-bottom: 60px; /* Add margin at the bottom to make space for the footer */
+    }
 }
+
